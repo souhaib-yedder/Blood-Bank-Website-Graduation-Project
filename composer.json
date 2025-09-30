@@ -1,0 +1,17 @@
+{
+    "name": "blood_bank/project_name",
+    "description": "A blood donation management system",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.10",
+        "tecnickcom/tcpdf": "^6.10",
+        "mpdf/mpdf": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BloodBank\\ProjectName\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
